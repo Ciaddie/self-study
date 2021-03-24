@@ -1,0 +1,27 @@
+the signed 32 bit range is [-2^31, 2^31 -1]
+  ex: 2,147,483,648 to 2,147,483,647
+
+-if the number is a single digit, then return that same digit
+-if the number's length is greater 10, return 0
+-keep the number's positive or negative value
+-if you are given a number that ends in 0, you do not return that 0 as the starting returned number
+
+ex:
+ 1 = 1
+
+ex:
+  12345678901 = 0
+
+ex:
+  130 = 31.
+
+ex:
+  -90 = -9
+
+Potential solutions:
+1. take the number and convert to a string
+2. split the string by each character so that each stringified number is in its own element
+3. iterate through array and put each element in front of a new array
+4. turn the new result array into a string
+5. turn the string back into a number
+6. return that number
