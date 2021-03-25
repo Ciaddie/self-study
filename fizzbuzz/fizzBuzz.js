@@ -15,7 +15,6 @@ const fizzBuzz = () => {
 
   return result;
 }
+ let test = fizzBuzz();
 
-let test = fizzBuzz();
-
-console.log(test);
+ console.log(test);
