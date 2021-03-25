@@ -16,5 +16,5 @@ const reverse = (number) => {
   return Number(result);
 }
 
-let test1 = 123
+let test1 = 123090000.0900
 console.log(reverse(test1));
