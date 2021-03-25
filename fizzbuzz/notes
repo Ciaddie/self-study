@@ -1,0 +1,15 @@
+inputs: none
+outputs: open for interpretation... a string? an array? an object?
+
+- I think i will try to make an object to clearly outline each number and how they produce either fizz, buzz, fizzbuzz, or none.
+
+- this may not be the exact way that the problem is presented. However, I chose what I thought was fitting for me- considering the fact that I will not dig too deep into this problem for fear of accidently reading the answer
+
+Potential solutions:
+- create a result object to hold every number.
+- create a for loop to go from 1-100
+  - test for BOTH 5 and 3
+  - test for 5
+  - test for 3
+  - if all else fails, value of current key/number fails
+- return result object
