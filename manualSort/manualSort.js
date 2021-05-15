@@ -24,7 +24,9 @@ const manualSort = (arr) => {
       arr[i] = temp;
     }
   }
-  return arr;
+  result.push(arr[0])
+  arr.splice(0, 1);
+  return result;
 }
 
-console.log(manualSort([4, 5, 6, 7, 8, 1]));
+console.log(manualSort([10, 5, 6, 7, 2, 9]));
