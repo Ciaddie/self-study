@@ -14,14 +14,17 @@ const manualSort = (arr) => {
 
   // return result;
   let temp = 0;
+  let smallest = arr[0];
+
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 2) {
+    if (smallest > arr[i]) {
+      smallest = arr[i];
       temp = arr[0];
-      arr[0] = arr[i];
+      arr[0] = smallest;
       arr[i] = temp;
     }
   }
   return arr;
 }
 
-console.log(manualSort([1, 3, 4, 5, 2]));
+console.log(manualSort([4, 5, 6, 7, 8, 1]));
