@@ -1,0 +1,3 @@
+The input is a number, the input is a string. The function will split that number apart, add each individual integer, and determine if that sum is odd or even.
+
+I will convert the number into a string. Then split the string into individual elements of an array. Iterate through the array to add it to a sum. Then determine if that sum is odd or even with finding the remainder when dividing it by 2.
